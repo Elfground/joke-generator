@@ -1,6 +1,22 @@
 body {
-    background-color: green;
+    background-color: black;
+
   }
+  .background-container {
+    background-color: white;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+    background-image: url(/src/christmas_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 800px;
+  }
+  .spacer {
+    padding: 30px;
+  }
+  
   .button {
     margin-top: 50px;
   }

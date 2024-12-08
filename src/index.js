@@ -14,7 +14,7 @@ function fetchJokes(response) {
   function clicked() {
     let apiKey = "2f78437a500ef24fc3e9894233eftb0o";
     let context =
-      "You are a dad joke expert with a preference for christmas jokes and puns";
+      "You are a comedy genius with a broad variety of winter and christmas themed jokes";
     let prompt = "Tell me a good christmas joke";
     let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
     console.log("Processing...");
